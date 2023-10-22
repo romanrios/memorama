@@ -14,7 +14,7 @@ export class MenuScene extends SceneBase {
         bg.width = SceneManager.WIDTH;
         bg.height = SceneManager.HEIGHT;
         this.addChild(bg);
-        
+
         const tstyle = new TextStyle({
             align: "center",
             dropShadowAlpha: 0,
@@ -38,15 +38,26 @@ export class MenuScene extends SceneBase {
         texto.scale.set(1);
         this.addChild(texto);
 
-        const btnsalir = new Button("Salir");       
-        btnsalir.position.set(500, 500);      
-        // btnsalir.on("mousedown", this.goToGame, this);
+        const btnsalir = new Button("Fullscreen");
+        btnsalir.position.set(500, 500);
+        btnsalir.on("pointerup", () => {
+            if (!document.fullscreenElement) {
+                if (document.documentElement.requestFullscreen) {
+                    document.documentElement.requestFullscreen();
+                }
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                }
+            }
+        }
+        );
         this.addChild(btnsalir);
 
-        const btnini = new Button("Comenzar");        
-        btnini.position.set(750, 500);        
-        btnini.on("mousedown", this.goToGame, this);   
-        this.addChild(btnini);    
+        const btnini = new Button("Comenzar");
+        btnini.position.set(750, 500);
+        btnini.on("pointerup", this.goToGame, this);
+        this.addChild(btnini);
     }
     private goToGame() {
         setTimeout(() => {
