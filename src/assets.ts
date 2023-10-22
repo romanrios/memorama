@@ -1,41 +1,27 @@
-export const assets = {
-    elefante: "./ele.png",
-    gorrito: "./gorito_cumple.png",
-
-    cat1: "./gatito/gatito1.png",
-    cat2: "./gatito/gatito2.png",
-    cat3: "./gatito/gatito3.png",
-    cat4: "./gatito/gatito4.png",
-    cat5: "./gatito/gatito5.png",
-    cat6: "./gatito/gatito6.png",
-    selva: "./gatito/selva.jpg",
-
-    estrellaa: "./panel/estrella dorada.png",
-    fondo: "./panel/fondo_estrella.jpg",
-    botonc: "./panel/boton-cerrar.png",
-    botonok: "./panel/boton-ok.png",
-    botonokover: "./panel/boton-ok-over.png",
-    botonokon: "./panel/boton-ok-on.png",
-    botoncon: "./panel/boton-config.png",
-
-    ventana: "./demo/windows.jpg",
-    touch: "./demo/touch.png",
-    mouse: "./demo/mouse.png",
-    //mousedown:"./demo/mousedown.png",
-    //mouseover:"./demo/mouseover.png",
-    pointer: "./demo/pointer.png",
-
-    cardback: "./card-back.jpg",
-    card1: "./1.jpg",
-    card2: "./2.jpg",
-    card3: "./3.jpg",
-    card4: "./4.jpg",
-    card5: "./5.jpg",
-    card6: "./6.jpg",
-    card7: "./7.jpg",
-    card8: "./8.jpg",
-    card9: "./9.jpg"
-
+export const assets ={
+    santafe:"./imgsantafe/puente-colgante.jpg",
+    0:"./imgsantafe/0.png" ,
+    1:"./imgsantafe/1.png" ,
+    2:"./imgsantafe/2.png" ,
+    3:"./imgsantafe/3.png" ,
+    4:"./imgsantafe/4.png",
+    5:"./imgsantafe/5.png" ,
+    6:"./imgsantafe/6.png",
+    7:"./imgsantafe/7.png",
+    8:"./imgsantafe/8.png",
+    9:"./imgsantafe/9.png",
+    10:"./imgsantafe/10.png",
+    11:"./imgsantafe/11.png",
+    12:"./imgsantafe/12.png",
+    13:"./imgsantafe/13.png",
+    14:"./imgsantafe/14.png",
+    15:"./imgsantafe/15.png",
+    16:"./imgsantafe/16.png",
+    17:"./imgsantafe/17.png",
+    18:"./imgsantafe/18.png",
+    19:"./imgsantafe/19.png",
+    santa:"./imgsantafe/santafe.jpg",
+    botonok:"./imgsantafe/boton-ok.png",
+    back:"./imgsantafe/back.jpg"
 }
-
 
